@@ -1,0 +1,77 @@
+.container {
+  display: flex;
+  height: 1389px;
+  width: 150;
+  background-color: red;
+  justify-content: center;
+  align-items: center;
+}
+.sub-container {
+  display: flex;
+  width: 1785px;
+  height: 1319px;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.form {
+  display: flex;
+  width: 935px;
+  height: 998px;
+  background-color: aqua;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 76px;
+  gap: 25px;
+}
+
+.button {
+  display: flex;
+  height: 77px;
+  width: 517px;
+  font-size: 30px;
+  border-radius: 2px solid;
+  box-sizing: border-box;
+  /* padding-left: 32px; */
+  border: 1px solid;
+  border-radius: 12px;
+  justify-content: center;
+  align-items: center;
+}
+#Password {
+  display: flex;
+  height: 77px;
+  width: 517px;
+  font-size: 30px;
+  border-radius: 2px solid;
+  box-sizing: border-box;
+  padding-left: 32px;
+  border: 1px solid;
+  border-radius: 12px;
+}
+#fname {
+  display: flex;
+  height: 77px;
+  width: 517px;
+  font-size: 30px;
+  border-radius: 2px solid;
+  box-sizing: border-box;
+  padding-left: 32px;
+  border: 1px solid;
+  border-radius: 12px;
+}
+.formdiv {
+  display: flex;
+  width: 935px;
+  height: 998px;
+  justify-content: center;
+  justify-content: space-between;
+  /* gap: 25px; */
+}
+
+/* #fname::placeholder {
+  padding-left: 32px;
+} */
